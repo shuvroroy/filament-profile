@@ -2,7 +2,6 @@
 
 namespace RyanChandler\FilamentProfile\Pages;
 
-use Filament\Facades\Filament;
 use Filament\Forms\Components\Grid;
 use Filament\Forms\Components\Section;
 use Filament\Forms\Components\TextInput;
