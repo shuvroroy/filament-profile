@@ -5,40 +5,20 @@
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/ryangjchandler/filament-profile/Check%20&%20fix%20styling?label=code%20style)](https://github.com/ryangjchandler/filament-profile/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/ryangjchandler/filament-profile.svg?style=flat-square)](https://packagist.org/packages/ryangjchandler/filament-profile)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This package provides a very simple `Profile` page that allows the current user to manage their name, email address and password inside of Filament.
 
 ## Installation
 
-You can install the package via composer:
+You can install the package via Composer:
 
 ```bash
 composer require ryangjchandler/filament-profile
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="filament-profile-migrations"
-php artisan migrate
-```
-
-You can publish the config file with:
-
-```bash
-php artisan vendor:publish --tag="filament-profile-config"
 ```
 
 Optionally, you can publish the views using
 
 ```bash
 php artisan vendor:publish --tag="filament-profile-views"
-```
-
-This is the contents of the published config file:
-
-```php
-return [
-];
 ```
 
 ## Usage
