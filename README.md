@@ -7,6 +7,8 @@
 
 This package provides a very simple `Profile` page that allows the current user to manage their name, email address and password inside of Filament.
 
+![Screenshot of Page](./art/screenshot.png)
+
 ## Installation
 
 You can install the package via Composer:
